@@ -1,0 +1,313 @@
+{
+  "slug": "gi-javarotti",
+  "negocio": {
+    "nome": "Lumina Skin · Dra. Gi Javarotti",
+    "logo": "brand/logo.webp",
+    "whatsapp": "5541985006161",
+    "unidades": [
+      {
+        "bairro": "Bigorrilho · Curitiba",
+        "endereco": "R. Padre Anchieta, 2348 · Anchieta Business, sala 606 · Bigorrilho · Curitiba – PR",
+        "telefone": "(41) 98500-6161"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#4A3A22",
+    "brand2": "#33281A",
+    "ink": "#1E1913",
+    "bg": "#F7F3EE",
+    "pulse": "#B8935A",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Inter",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Pele madura",
+            "href": "#pele-madura"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Tecnologias",
+            "href": "#tecnologias"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Bigorrilho · Curitiba",
+        "h1": "Pele madura, resultado natural",
+        "lead": "Toxina, bioestimuladores e laser num plano feito para a pele dos 45 aos 80 anos, com a Dra. Gi Javarotti.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Avaliação sem custo",
+        "imagem": "midia/gi.jpg",
+        "imagemAlt": "Dra. Gislaine Javarotti sorrindo à mesa do consultório da Lumina Skin"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Bioestimuladores",
+          "Preenchedores",
+          "Ultraformer MPT",
+          "Laser Lavien",
+          "CO2 fracionado",
+          "Skinbooster",
+          "Fios de PDO",
+          "Criolipólise",
+          "Perfect Glúteo"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Quem conduz",
+        "citacao": "Rejuvenescer não é ficar com outro rosto. É voltar a se reconhecer no espelho.",
+        "autor": "Lumina Skin · Clínica Estética Avançada",
+        "texto": [
+          "A Dra. Gislaine Javarotti soma mais de 20 anos em estética avançada. Hoje o foco da Lumina Skin é a pele madura, dos 45 aos 80 anos.",
+          "A consulta começa por uma avaliação. Só depois vem o plano, com o que faz sentido para aquela pele, naquela fase."
+        ],
+        "imagem": "midia/gi-retrato.jpg",
+        "imagemAlt": "Retrato da Dra. Gislaine Javarotti, de braços cruzados, na clínica"
+      }
+    },
+    {
+      "custom": "blocos/pele-madura.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "O portfólio tem mais de vinte procedimentos. Estes são os que mais aparecem nos planos de rejuvenescimento.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão e evita que novas se aprofundem, sem travar o movimento do rosto.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Bioestimuladores e peptídeos",
+            "descricao": "Estimulam a pele a produzir colágeno de novo. O resultado aparece aos poucos e firma por dentro.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Preenchedores",
+            "descricao": "Repõem volume e contorno onde o tempo tirou, nos lábios, no rosto ou no corpo, na medida de cada um.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Skinbooster",
+            "descricao": "Hidratação profunda que devolve viço e elasticidade a peles secas e opacas.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Fios de PDO",
+            "descricao": "Sustentação imediata e estímulo de colágeno no mesmo procedimento.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Rinomodelação",
+            "descricao": "Corrige pequenas irregularidades do nariz sem cirurgia, em uma sessão.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Protocolo PRP",
+            "descricao": "Plasma rico em plaquetas da própria paciente para regenerar a pele e estimular colágeno.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Perfect Glúteo",
+            "descricao": "Protocolo combinado para firmar, tonificar e redesenhar o contorno dos glúteos.",
+            "icone": "mulher"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Os aparelhos da clínica",
+        "itens": [
+          {
+            "nome": "Ultraformer MPT",
+            "detalhe": "Ultrassom microfocado para flacidez de rosto e corpo",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Laser Lavien",
+            "detalhe": "Manchas e tom irregular",
+            "icone": "laser"
+          },
+          {
+            "nome": "Laser Hybrid",
+            "detalhe": "Textura, rugas finas e renovação",
+            "icone": "laser"
+          },
+          {
+            "nome": "Laser Hegon",
+            "detalhe": "Manchas, vasinhos e fotoenvelhecimento",
+            "icone": "laser"
+          },
+          {
+            "nome": "CO2 fracionado",
+            "detalhe": "Cicatrizes, rugas e textura em profundidade",
+            "icone": "laser"
+          },
+          {
+            "nome": "Luz pulsada",
+            "detalhe": "Manchas e vasinhos do sol",
+            "icone": "sol"
+          },
+          {
+            "nome": "Endolaser",
+            "detalhe": "Flacidez e gordura localizada",
+            "icone": "laser"
+          },
+          {
+            "nome": "Criolipólise",
+            "detalhe": "Gordura localizada, sem corte",
+            "icone": "gota"
+          },
+          {
+            "nome": "LED terapia",
+            "detalhe": "Acalma a pele e acelera a recuperação",
+            "icone": "sol"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Mensagem no WhatsApp",
+            "texto": "Conte o que incomoda. A recepção marca a avaliação, que não tem custo.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação com a Dra. Gi",
+            "texto": "Ela examina a pele, ouve o que você quer mudar e o que quer manter.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Plano por etapas",
+            "texto": "Você sai sabendo quais procedimentos, em que ordem e com que intervalo.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Retorno no tempo certo",
+            "texto": "Toxina e bioestimulador têm prazo. A manutenção já entra no plano desde a primeira consulta.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as pacientes escrevem no Google",
+        "itens": [
+          {
+            "texto": "Desde o primeiro atendimento me senti acolhida e muito bem cuidada. A Gi e toda a equipe cuidam de cada detalhe.",
+            "autor": "Maria Mafioletti",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Fiz laser, Ultraformer e preenchedores e agora não paro nunca mais. Estou me amando novamente.",
+            "autor": "Vera Santos",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Cheguei assustada e curiosa, e fui relaxando. Estou muito feliz com o resultado.",
+            "autor": "Loemir Meireles",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "A avaliação tem custo?",
+            "r": "Não. A primeira conversa com a Dra. Gi serve para entender a sua pele e montar o plano, sem compromisso de começar no mesmo dia."
+          },
+          {
+            "p": "Nunca fiz nenhum procedimento. Por onde começo?",
+            "r": "Pela avaliação. É comum começar por um procedimento só e acrescentar os outros conforme a pele responde."
+          },
+          {
+            "p": "Vou ficar com cara de procedimento?",
+            "r": "O objetivo da clínica é o contrário: suavizar e firmar mantendo os seus traços e a sua expressão."
+          },
+          {
+            "p": "Quanto tempo dura a toxina?",
+            "r": "Em geral, de quatro a seis meses, variando de pessoa para pessoa. O retorno faz parte do plano."
+          },
+          {
+            "p": "Já sou paciente. Consigo marcar sem mandar mensagem?",
+            "r": "Sim. A clínica tem agendamento online: é só entrar com o celular e escolher o horário."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Bigorrilho, na Padre Anchieta",
+        "imagem": "midia/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Marque sua avaliação com a Dra. Gi",
+        "lead": "Mande uma mensagem dizendo o que quer tratar. A recepção responde com os horários livres.",
+        "cta": "Agendar avaliação"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

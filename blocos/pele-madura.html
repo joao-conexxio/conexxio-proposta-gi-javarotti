@@ -1,0 +1,67 @@
+<section class="blk-madura" id="pele-madura">
+  <div class="wrap">
+    <div class="blk-madura__topo">
+      <div class="blk-madura__faixa" data-reveal aria-label="Dos 45 aos 80 anos">
+        <span class="blk-madura__idade">45</span>
+        <span class="blk-madura__fio" aria-hidden="true"></span>
+        <span class="blk-madura__idade">80</span>
+      </div>
+      <div>
+        <p class="blk-madura__eyebrow" data-reveal>Para quem a Lumina Skin trabalha</p>
+        <h2 class="blk-madura__titulo" data-reveal>A pele que já viveu pede outro plano</h2>
+        <p class="blk-madura__lead" data-acende>Depois dos 45, o rosto perde sustentação e o colágeno cai mais rápido. A Dra. Gi montou a clínica em torno dessa fase: o plano junta procedimentos para firmar e devolver viço sem apagar a expressão de quem chegou até aqui.</p>
+      </div>
+    </div>
+
+    <ol class="blk-madura__frentes">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-madura__ico"><!--icone:rosto--></span>
+        <h3>Rosto</h3>
+        <p>Toxina, preenchedores, bioestimuladores e laser combinados para suavizar, firmar e clarear, mantendo os traços de sempre.</p>
+      </li>
+      <li data-reveal style="--d:80ms">
+        <span class="blk-madura__ico"><!--icone:ultrassom--></span>
+        <h3>Corpo</h3>
+        <p>Ultrassom microfocado, criolipólise, enzimas e bioestimuladores para flacidez e medidas, em sessões progressivas.</p>
+      </li>
+      <li data-reveal style="--d:160ms">
+        <span class="blk-madura__ico"><!--icone:mulher--></span>
+        <h3>Glúteo</h3>
+        <p>Protocolo sem cirurgia para firmar e redesenhar o contorno, com preenchedores, bioestimuladores e tecnologia.</p>
+      </li>
+    </ol>
+
+    <div class="blk-madura__start" data-reveal>
+      <p class="blk-madura__selo">Protocolo Start Skin</p>
+      <p>Método criado pela Dra. Gi na própria clínica: o resultado vem por etapas, cada uma ajustada ao que a pele respondeu na anterior.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-madura{padding-block:var(--sp-section);background:var(--bg-2)}
+.blk-madura__topo{display:grid;gap:var(--sp-5);align-items:center}
+.blk-madura__faixa{display:flex;align-items:center;gap:var(--sp-3);color:var(--brand)}
+.blk-madura__idade{font-family:var(--f-display);font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1;font-size:clamp(4.5rem,16vw,9rem);font-weight:500;line-height:.9;letter-spacing:-.02em}
+.blk-madura__fio{flex:1;min-width:3rem;max-width:10rem;height:1px;background:var(--pulse)}
+.blk-madura__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--ink-dim)}
+.blk-madura__titulo{margin:var(--sp-3) 0 0;max-width:16ch;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-madura__lead{margin:var(--sp-3) 0 0;max-width:36rem;font-size:1.1rem;line-height:1.7;color:var(--ink-soft)}
+.blk-madura__frentes{list-style:none;margin:4rem 0 0;padding:0;display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden}
+.blk-madura__frentes li{padding:var(--sp-4);background:var(--bg)}
+.blk-madura__ico{display:inline-flex;width:2rem;height:2rem;color:var(--pulse)}
+.blk-madura__ico svg{width:100%;height:100%}
+.blk-madura__frentes h3{margin:var(--sp-2) 0 0;font-family:var(--f-display);font-size:1.6rem;font-weight:500;color:var(--ink)}
+.blk-madura__frentes p{margin:var(--sp-2) 0 0;line-height:1.6;color:var(--ink-soft)}
+.blk-madura__start{margin-top:var(--sp-5);display:grid;gap:var(--sp-2);padding:var(--sp-4);border-radius:var(--r-lg);background:var(--brand);color:var(--on-dark)}
+.blk-madura__start p{margin:0;max-width:44rem;line-height:1.6}
+.blk-madura__selo{font-family:var(--f-display);font-size:1.5rem;font-style:italic;color:var(--on-dark)}
+@media (min-width:48rem){
+  .blk-madura__frentes{grid-template-columns:repeat(3,1fr)}
+  .blk-madura__start{grid-template-columns:16rem 1fr;align-items:center}
+}
+@media (min-width:64rem){
+  .blk-madura__topo{grid-template-columns:5fr 6fr;gap:6rem}
+  .blk-madura__frentes li{padding:var(--sp-5)}
+}
+</style>
